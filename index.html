@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- SECTION HOME -->
+<section id="home">
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <p>Je suis un développeur passionné par la création web.</p>
+
+    <!-- Vidéo -->
+    <video width="400" controls>
+        <source src="media/video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas la lecture audio.
+    </audio>
+</section>
+
+<!-- SECTION ABOUT -->
+<section id="about">
+    <h2>À propos</h2>
+    <p>Je m'appelle Guy-Roland et je crée des sites web modernes et responsives.</p>
+
+    <h3>Mes compétences</h3>
+    <ul>
+        <li>Développement Web (HTML, CSS, JS)</li>
+        <li>Création de sites vitrines</li>
+        <li>Gestion de projets digitaux</li>
+    </ul>
+</section>
+
+<!-- SECTION WORK -->
+<section id="work">
+    <h2>Mes Réalisations</h2>
+
+    <table>
+        <tr>
+            <th>Projet</th>
+            <th>Description</th>
+            <th>Lien</th>
+        </tr>
+        <tr>
+            <td>Site Portfolio</td>
+            <td>Mon site personnel</td>
+            <td><a href="portfolio.html">Voir</a></td>
+        </tr>
+        <tr>
+            <td>Application ToDo</td>
+            <td>Gestion de tâches simple</td>
+            <td><a href="todo.html">Voir</a></td>
+        </tr>
+    </table>
+</section>
+
+
+
+<!-- SECTION CONTACT -->
+<section id="contact">
+    <h2>Contactez-moi</h2>
+
+    <form action="#" method="POST">
+        <label>Nom :</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email :</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message :</label><br>
+        <textarea name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2025 - Mon Portfolio </p>
+</footer>
+
+</body>
+</html>
